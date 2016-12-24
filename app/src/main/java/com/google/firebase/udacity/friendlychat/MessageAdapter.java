@@ -17,6 +17,7 @@ public class MessageAdapter extends ArrayAdapter<FriendlyMessage> {
         super(context, resource, objects);
     }
 
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
